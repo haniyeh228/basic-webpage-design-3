@@ -1,0 +1,72 @@
+body {
+    background: url('back.jpg') fixed;
+}
+
+#wrapper {
+    width: 960px;
+    height: 960px;
+    background-color: lightgray;
+    margin: 5px auto;
+    overflow: auto;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#navbar {
+    height: 50px;
+    margin: 5px;
+    background-color: whitesmoke;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    direction: rtl;
+    font-size: 18px;
+
+
+}
+
+li {
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+#sidebar {
+    width: 200px;
+    height: 550px;
+    background-color: maroon;
+    float: right;
+    margin: 5px;
+    margin-top: 0px;
+
+}
+
+#content {
+    width: 745px;
+    height: 550px;
+    background-color: orange;
+    margin: 5px;
+    margin-right: 0px;
+    margin-top: 0px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer {
+    background-color: black;
+    height: 110px;
+}
